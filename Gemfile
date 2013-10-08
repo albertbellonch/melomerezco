@@ -10,6 +10,11 @@ gem 'uglifier'
 gem 'jquery-rails'
 gem 'slim-rails'
 
+# Users
+gem 'devise'
+gem 'omniauth'
+gem 'omniauth-facebook'
+
 # Database
 gem 'mysql2'
 

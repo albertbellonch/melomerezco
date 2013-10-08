@@ -1,1 +1,9 @@
-| MARCOS TONTO
+h1 Melomerezco
+h2 Y punto
+
+- if user_signed_in?
+  ' Hola,
+  = current_user.name
+  | !
+- else
+  = link_to "Loguéate con Facebook", user_omniauth_authorize_path(:facebook)
