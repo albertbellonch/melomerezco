@@ -12,3 +12,6 @@ gem 'slim-rails'
 
 # Database
 gem 'mysql2'
+
+# Others
+gem 'quiet_assets'
