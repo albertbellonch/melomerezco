@@ -1,7 +1,0 @@
-development:
-  adapter: mysql2
-  encoding: utf8
-  host: localhost
-  database: melomerezco
-  username: root
-  password:
