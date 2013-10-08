@@ -15,3 +15,8 @@ gem 'mysql2'
 
 # Others
 gem 'quiet_assets'
+
+# Development
+group :development do
+  gem 'thin'
+end
